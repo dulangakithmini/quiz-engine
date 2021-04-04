@@ -2,6 +2,7 @@ import java.util.List;
 
 public class Paper {
     private List<Question> questionList;
+    private int state;
 
     public void setQuestionList(List<Question> questionList) {
         this.questionList = questionList;
@@ -18,6 +19,15 @@ public class Paper {
     public void getQuestion(int index) {
         Question question = questionList.get(index);
         question.printQuestion();
-        question.getAnswer();
+        int choice = question.getAnswer();
+
+        if (question.checkAnswer(choice)) {
+            this.state++;
+        }
     }
+
+    public int getState() {
+        return state;
+    }
+
 }

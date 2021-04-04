@@ -22,7 +22,6 @@ public class Application {
             paper.getQuestion(i);
         }
 
-        Question question = new Question();
-        System.out.println("Score = " + (question.getState() + "/" + paper.getQuestionCount()));
+        System.out.println("Score = " + (paper.getState() + "/" + paper.getQuestionCount()));
     }
 }
