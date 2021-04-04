@@ -16,7 +16,8 @@ public class Paper {
     }
 
     public void getQuestion(int index) {
-        Question q = questionList.get(index - 1);
-        q.printQuestion();
+        Question question = questionList.get(index);
+        question.printQuestion();
+        question.getAnswer();
     }
 }
