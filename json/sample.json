@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "question": "Who is the most innocent?",
+      "answers": [
+        "Nipuna",
+        "Phi Ball",
+        "Suutu",
+        "Pue"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Who is the fluffiest?",
+      "answers": [
+        "Nipuna",
+        "Phi Ball",
+        "Pue",
+        "All the above"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "question": "What is Phi's fur colour?",
+      "answers": [
+        "Black",
+        "Blue",
+        "Brown",
+        "Pink"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "question": "What's the most precious thing about Phi?",
+      "answers": [
+        "Sexy brain",
+        "Fur coat",
+        "Long legs",
+        "Broad Chest"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}
