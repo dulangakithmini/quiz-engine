@@ -16,7 +16,9 @@ public class Question {
         for (int i = 0; i < answers.length; i++) {
             System.out.println((i + 1) + ") " + answers[i]);
         }
+    }
 
+    public void getAnswer() {
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
         checkAnswer(choice);
